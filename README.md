@@ -14,7 +14,7 @@ I'm not using Chef or Puppet either to keep this a self-contained example, inste
 
 This virtual machine is based on Ubuntu 14 "Trusty" and forwards to your host machine two ports from the VM:  8069 for the Odoo UI and 5432 for PostgreSQL.
 
-If you don't want to configure the setup any further
+If you don't want to configure the setup any further you can start provisioning your VM with:
 
 `$ vagrant up`
 ...and visit [http://localhost:8069](http://localhost:8069) once the machine is booted.
